@@ -7,7 +7,7 @@
   "brandingSettings": {
     "title": "Funti VPN",
     "logoUrl": "https://raw.githubusercontent.com/michailr1/FuntiVPN/main/remnawave/subscription-page/logo-cat-shield.jpg",
-    "supportUrl": "https://funti.cc"
+    "supportUrl": "https://t.me/michaiI"
   },
   "baseSettings": {
     "metaTitle": "Funti VPN — подключение",
@@ -290,29 +290,6 @@
                 "ru": "Откройте Configs, обновите подписку, выберите сервер и включите VPN."
               },
               "svgIconColor": "teal"
-            },
-            {
-              "svgIconKey": "Gear",
-              "svgIconColor": "cyan",
-              "title": {
-                "en": "Russian sites without VPN",
-                "ru": "Российские сайты без VPN"
-              },
-              "description": {
-                "en": "Import Funti routing rules into V2Box. Russian IPs and selected Russian services will use DIRECT.",
-                "ru": "Импортируйте правила Funti в V2Box. Российские IP и выбранные российские сервисы будут идти напрямую, без VPN."
-              },
-              "buttons": [
-                {
-                  "link": "v2box://routes?multi=W3sibmFtZSI6InJvdXRlLjU3N0ZBRTA2LTQyODgtNTA2RC04RDVGLUYwOTFCMjExQzAyNSIsInR5cGUiOiJEb21haW4iLCJ0YWciOiJkaXJlY3QiLCJtYXRjaE1vZGUiOiJrZXl3b3JkIiwibGlzdElQIjpbXSwicmVtYXJrIjoiRnVudGkgUlUgc2VydmljZXMgLT4gRElSRUNUIiwiaXNFbmFibGUiOnRydWUsImxpc3QiOlsiZ29zdXNsdWdpIiwib3pvbiIsIndpbGRiZXJyaWVzIl19LHsibmFtZSI6InJvdXRlLjRFQUYxMkQ0LTMxNTctNTRDOS05MkNCLTQ1Q0EyODVFMDEyMCIsInR5cGUiOiJEb21haW4iLCJ0YWciOiJkaXJlY3QiLCJtYXRjaE1vZGUiOiJyZWdleHAiLCJsaXN0SVAiOltdLCJyZW1hcmsiOiJGdW50aSBSVSBkb21haW4gc3VmZml4ZXMgLT4gRElSRUNUIiwiaXNFbmFibGUiOnRydWUsImxpc3QiOlsicmVnZXhwOihefFxcXFwuKWdvc3VzbHVnaVxcLnJ1JCIsInJlZ2V4cDooXnxcXFxcLiluYWxvZ1xcLmdvdlxcLnJ1JCIsInJlZ2V4cDooXnxcXFxcLiltb3NcXC5ydSQiLCJyZWdleHA6KF58XFxcXC4pc2JlclxcLnJ1JCIsInJlZ2V4cDooXnxcXFxcLilzYmVyYmFua1xcLnJ1JCIsInJlZ2V4cDooXnxcXFxcLil0YmFua1xcLnJ1JCIsInJlZ2V4cDooXnxcXFxcLil0aW5rb2ZmXFwucnUkIiwicmVnZXhwOihefFxcXFwuKXZ0YlxcLnJ1JCIsInJlZ2V4cDooXnxcXFxcLilhbGZhYmFua1xcLnJ1JCIsInJlZ2V4cDooXnxcXFxcLilnYXpwcm9tYmFua1xcLnJ1JCIsInJlZ2V4cDooXnxcXFxcLilyYWlmZmVpc2VuXFwucnUkIiwicmVnZXhwOihefFxcXFwuKXJzaGJcXC5ydSQiLCJyZWdleHA6KF58XFxcXC4pcHNiYW5rXFwucnUkIiwicmVnZXhwOihefFxcXFwuKXNvdmNvbWJhbmtcXC5ydSQiLCJyZWdleHA6KF58XFxcXC4pbXRzYmFua1xcLnJ1JCIsInJlZ2V4cDooXnxcXFxcLiluc3BrXFwucnUkIiwicmVnZXhwOihefFxcXFwuKW1pcm9ubGluZVxcLnJ1JCIsInJlZ2V4cDooXnxcXFxcLilvem9uXFwucnUkIiwicmVnZXhwOihefFxcXFwuKXdpbGRiZXJyaWVzXFwucnUkIiwicmVnZXhwOihefFxcXFwuKXdiXFwucnUkIiwicmVnZXhwOihefFxcXFwuKXlhbmRleFxcLnJ1JCIsInJlZ2V4cDooXnxcXFxcLil5YW5kZXhcXC5uZXQkIiwicmVnZXhwOihefFxcXFwuKXZrXFwuY29tJCIsInJlZ2V4cDooXnxcXFxcLil1c2VyYXBpXFwuY29tJCIsInJlZ2V4cDooXnxcXFxcLilhdml0b1xcLnJ1JCIsInJlZ2V4cDooXnxcXFxcLikyZ2lzXFwucnUkIiwicmVnZXhwOihefFxcXFwuKXJ6ZFxcLnJ1JCIsInJlZ2V4cDooXnxcXFxcLilwb2NodGFcXC5ydSQiXX0seyJuYW1lIjoicm91dGUuN0ZERjg3ODEtMzcyMS01RkZDLTkxQjMtQ0QwNDM2NkY1MDM0IiwidHlwZSI6IklQIiwidGFnIjoiZGlyZWN0IiwibWF0Y2hNb2RlIjoiZnVsbCIsImxpc3RJUCI6WyJnZW9pcDpwcml2YXRlIiwiZ2VvaXA6UlUiXSwicmVtYXJrIjoiRnVudGkgUlUvcHJpdmF0ZSBJUCAtPiBESVJFQ1QiLCJpc0VuYWJsZSI6dHJ1ZSwibGlzdCI6W119XQ==",
-                  "type": "external",
-                  "text": {
-                    "en": "Import RU exclusions",
-                    "ru": "Импортировать исключения РФ"
-                  },
-                  "svgIconKey": "Plus"
-                }
-              ]
             }
           ],
           "featured": true,
