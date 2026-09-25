@@ -203,7 +203,7 @@
               "svgIconColor": "teal"
             }
           ],
-          "featured": false,
+          "featured": true,
           "svgIconKey": "Shadowrocket"
         },
         {
@@ -476,7 +476,7 @@
               "svgIconColor": "teal"
             }
           ],
-          "featured": true,
+          "featured": false,
           "svgIconKey": "RabbitHole"
         },
         {
@@ -542,7 +542,7 @@
               "svgIconColor": "teal"
             }
           ],
-          "featured": true,
+          "featured": false,
           "svgIconKey": "ClashMi"
         },
         {
