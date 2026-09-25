@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "name": "Funti RU Direct",
+  "description": "Russian infrastructure and selected Russian services go DIRECT; everything else uses VPN.",
+  "direct": {
+    "domain_suffix": [
+      "gosuslugi.ru",
+      "nalog.gov.ru",
+      "mos.ru",
+      "sber.ru",
+      "sberbank.ru",
+      "tbank.ru",
+      "tinkoff.ru",
+      "vtb.ru",
+      "alfabank.ru",
+      "gazprombank.ru",
+      "raiffeisen.ru",
+      "rshb.ru",
+      "psbank.ru",
+      "sovcombank.ru",
+      "mtsbank.ru",
+      "nspk.ru",
+      "mironline.ru",
+      "ozon.ru",
+      "wildberries.ru",
+      "wb.ru",
+      "yandex.ru",
+      "yandex.net",
+      "vk.com",
+      "userapi.com",
+      "avito.ru",
+      "2gis.ru",
+      "rzd.ru",
+      "pochta.ru"
+    ],
+    "domain_keyword": [
+      "gosuslugi",
+      "ozon",
+      "wildberries"
+    ],
+    "geoip": [
+      "private",
+      "ru"
+    ]
+  }
+}

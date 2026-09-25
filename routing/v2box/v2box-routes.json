@@ -1,0 +1,68 @@
+[
+  {
+    "name": "route.577FAE06-4288-506D-8D5F-F091B211C025",
+    "type": "Domain",
+    "tag": "direct",
+    "matchMode": "keyword",
+    "listIP": [],
+    "remark": "Funti RU services -> DIRECT",
+    "isEnable": true,
+    "list": [
+      "gosuslugi",
+      "ozon",
+      "wildberries"
+    ]
+  },
+  {
+    "name": "route.4EAF12D4-3157-54C9-92CB-45CA285E0120",
+    "type": "Domain",
+    "tag": "direct",
+    "matchMode": "regexp",
+    "listIP": [],
+    "remark": "Funti RU domain suffixes -> DIRECT",
+    "isEnable": true,
+    "list": [
+      "regexp:(^|\\\\.)gosuslugi\\.ru$",
+      "regexp:(^|\\\\.)nalog\\.gov\\.ru$",
+      "regexp:(^|\\\\.)mos\\.ru$",
+      "regexp:(^|\\\\.)sber\\.ru$",
+      "regexp:(^|\\\\.)sberbank\\.ru$",
+      "regexp:(^|\\\\.)tbank\\.ru$",
+      "regexp:(^|\\\\.)tinkoff\\.ru$",
+      "regexp:(^|\\\\.)vtb\\.ru$",
+      "regexp:(^|\\\\.)alfabank\\.ru$",
+      "regexp:(^|\\\\.)gazprombank\\.ru$",
+      "regexp:(^|\\\\.)raiffeisen\\.ru$",
+      "regexp:(^|\\\\.)rshb\\.ru$",
+      "regexp:(^|\\\\.)psbank\\.ru$",
+      "regexp:(^|\\\\.)sovcombank\\.ru$",
+      "regexp:(^|\\\\.)mtsbank\\.ru$",
+      "regexp:(^|\\\\.)nspk\\.ru$",
+      "regexp:(^|\\\\.)mironline\\.ru$",
+      "regexp:(^|\\\\.)ozon\\.ru$",
+      "regexp:(^|\\\\.)wildberries\\.ru$",
+      "regexp:(^|\\\\.)wb\\.ru$",
+      "regexp:(^|\\\\.)yandex\\.ru$",
+      "regexp:(^|\\\\.)yandex\\.net$",
+      "regexp:(^|\\\\.)vk\\.com$",
+      "regexp:(^|\\\\.)userapi\\.com$",
+      "regexp:(^|\\\\.)avito\\.ru$",
+      "regexp:(^|\\\\.)2gis\\.ru$",
+      "regexp:(^|\\\\.)rzd\\.ru$",
+      "regexp:(^|\\\\.)pochta\\.ru$"
+    ]
+  },
+  {
+    "name": "route.7FDF8781-3721-5FFC-91B3-CD04366F5034",
+    "type": "IP",
+    "tag": "direct",
+    "matchMode": "full",
+    "listIP": [
+      "geoip:private",
+      "geoip:RU"
+    ],
+    "remark": "Funti RU/private IP -> DIRECT",
+    "isEnable": true,
+    "list": []
+  }
+]
