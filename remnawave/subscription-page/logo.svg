@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Funti VPN">
+  <rect width="256" height="256" rx="56" fill="#111827"/>
+  <path d="M128 34 205 64v58c0 52-30 82-77 100-47-18-77-48-77-100V64l77-30Z" fill="#22d3ee" opacity=".18"/>
+  <path d="M128 46 193 71v50c0 43-23 69-65 86-42-17-65-43-65-86V71l65-25Z" fill="none" stroke="#67e8f9" stroke-width="10"/>
+  <path d="M91 84h76v18h-54v26h46v18h-46v42H91V84Z" fill="#f8fafc"/>
+</svg>
