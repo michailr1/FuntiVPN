@@ -197,8 +197,8 @@
                 "ru": "Российские сайты без VPN"
               },
               "description": {
-                "en": "Install Funti routing: Russian IPs, banks, Gosuslugi, Ozon and other selected Russian services will use your normal Internet connection.",
-                "ru": "Установите маршрутизацию Funti: российские IP, банки, Госуслуги, Ozon и другие выбранные российские сервисы будут открываться через обычное подключение, без VPN."
+                "en": "Install Funti routing so Russian IPs, banks, Gosuslugi, Ozon and selected Russian services use your normal Internet connection.<br><br>1. Install the RU exclusions.<br>2. Enable <b>Config</b> routing mode. Shadowrocket does not let a normal server subscription force this mode, but it can be switched with the button below.<br><br><img src=\"https://raw.githubusercontent.com/michailr1/FuntiVPN/main/remnawave/subscription-page/assets/shadowrocket-routing-home.svg\" style=\"width:100%;max-width:430px;border-radius:18px;display:block;margin:10px auto;\"><br><img src=\"https://raw.githubusercontent.com/michailr1/FuntiVPN/main/remnawave/subscription-page/assets/shadowrocket-routing-mode.svg\" style=\"width:100%;max-width:430px;border-radius:18px;display:block;margin:10px auto;\">",
+                "ru": "Установите маршрутизацию Funti: российские IP, банки, Госуслуги, Ozon и выбранные российские сервисы будут открываться через обычное подключение, без VPN.<br><br>1. Установите исключения РФ.<br>2. Включите режим маршрутизации <b>«Настройка»</b>. Обычная подписка на серверы не может сама принудительно переключить этот режим, но его можно включить кнопкой ниже.<br><br><img src=\"https://raw.githubusercontent.com/michailr1/FuntiVPN/main/remnawave/subscription-page/assets/shadowrocket-routing-home.svg\" style=\"width:100%;max-width:430px;border-radius:18px;display:block;margin:10px auto;\"><br><img src=\"https://raw.githubusercontent.com/michailr1/FuntiVPN/main/remnawave/subscription-page/assets/shadowrocket-routing-mode.svg\" style=\"width:100%;max-width:430px;border-radius:18px;display:block;margin:10px auto;\">"
               },
               "buttons": [
                 {
@@ -209,6 +209,15 @@
                     "ru": "Добавить исключения РФ"
                   },
                   "svgIconKey": "Plus"
+                },
+                {
+                  "link": "shadowrocket://route/config?autoclose=true",
+                  "type": "external",
+                  "text": {
+                    "en": "Enable Config mode",
+                    "ru": "Включить режим «Настройка»"
+                  },
+                  "svgIconKey": "Check"
                 }
               ]
             },
