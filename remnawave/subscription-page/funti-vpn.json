@@ -478,6 +478,138 @@
     "android": {
       "apps": [
         {
+          "name": "Hiddify",
+          "blocks": [
+            {
+              "title": {
+                "en": "App Installation",
+                "ru": "Установка приложения"
+              },
+              "buttons": [
+                {
+                  "link": "https://play.google.com/store/apps/details?id=app.hiddify.com",
+                  "text": {
+                    "en": "Open in Google Play",
+                    "ru": "Открыть в Google Play"
+                  },
+                  "type": "external",
+                  "svgIconKey": "ExternalLink"
+                }
+              ],
+              "svgIconKey": "DownloadIcon",
+              "description": {
+                "en": "Install Hiddify and allow VPN configuration on first launch.",
+                "ru": "Установите Hiddify и разрешите создание VPN-конфигурации при первом запуске."
+              },
+              "svgIconColor": "cyan"
+            },
+            {
+              "title": {
+                "en": "Add Subscription",
+                "ru": "Добавление подписки"
+              },
+              "buttons": [
+                {
+                  "link": "hiddify://import/{{SUBSCRIPTION_LINK}}",
+                  "text": {
+                    "en": "Add Subscription",
+                    "ru": "Добавить подписку"
+                  },
+                  "type": "subscriptionLink",
+                  "svgIconKey": "Plus"
+                }
+              ],
+              "svgIconKey": "CloudDownload",
+              "description": {
+                "en": "Tap the button below — Hiddify will open and offer to import the Funti VPN subscription.",
+                "ru": "Нажмите кнопку ниже — Hiddify откроется и предложит импортировать подписку Funti VPN."
+              },
+              "svgIconColor": "cyan"
+            },
+            {
+              "title": {
+                "en": "Connect",
+                "ru": "Подключение"
+              },
+              "buttons": [],
+              "svgIconKey": "Check",
+              "description": {
+                "en": "After import, select the Funti VPN profile and connect. Refresh the profile when needed to receive new servers.",
+                "ru": "После импорта выберите профиль Funti VPN и подключитесь. При необходимости обновите профиль, чтобы получить новые серверы."
+              },
+              "svgIconColor": "teal"
+            }
+          ],
+          "featured": true,
+          "svgIconKey": "Hiddify"
+        },
+        {
+          "name": "V2Box",
+          "blocks": [
+            {
+              "title": {
+                "en": "App Installation",
+                "ru": "Установка приложения"
+              },
+              "buttons": [
+                {
+                  "link": "https://play.google.com/store/apps/details?id=dev.hexasoftware.v2box",
+                  "text": {
+                    "en": "Open in Google Play",
+                    "ru": "Открыть в Google Play"
+                  },
+                  "type": "external",
+                  "svgIconKey": "ExternalLink"
+                }
+              ],
+              "svgIconKey": "DownloadIcon",
+              "description": {
+                "en": "Install V2Box from Google Play.",
+                "ru": "Установите V2Box из Google Play."
+              },
+              "svgIconColor": "cyan"
+            },
+            {
+              "title": {
+                "en": "Add Subscription",
+                "ru": "Добавление подписки"
+              },
+              "buttons": [
+                {
+                  "link": "v2box://install-sub?url={{SUBSCRIPTION_LINK}}&name=Funti%20VPN",
+                  "text": {
+                    "en": "Add Subscription",
+                    "ru": "Добавить подписку"
+                  },
+                  "type": "subscriptionLink",
+                  "svgIconKey": "Plus"
+                }
+              ],
+              "svgIconKey": "CloudDownload",
+              "description": {
+                "en": "Tap the button below — V2Box will open and add the subscription. If automatic import does not work, copy the subscription URL and add it manually in the subscriptions section.",
+                "ru": "Нажмите кнопку ниже — V2Box откроется и добавит подписку. Если автоматический импорт не сработает, скопируйте ссылку подписки и добавьте её вручную в разделе подписок."
+              },
+              "svgIconColor": "cyan"
+            },
+            {
+              "title": {
+                "en": "Connect",
+                "ru": "Подключение"
+              },
+              "buttons": [],
+              "svgIconKey": "Check",
+              "description": {
+                "en": "Refresh the subscription, select a server, and enable VPN.",
+                "ru": "Обновите подписку, выберите сервер и включите VPN."
+              },
+              "svgIconColor": "teal"
+            }
+          ],
+          "featured": true,
+          "svgIconKey": "VTwoBox"
+        },
+        {
           "name": "Happ",
           "blocks": [
             {
@@ -630,72 +762,6 @@
           ],
           "featured": false,
           "svgIconKey": "Android"
-        },
-        {
-          "name": "Hiddify",
-          "blocks": [
-            {
-              "title": {
-                "en": "App Installation",
-                "ru": "Установка приложения"
-              },
-              "buttons": [
-                {
-                  "link": "https://play.google.com/store/apps/details?id=app.hiddify.com",
-                  "text": {
-                    "en": "Open in Google Play",
-                    "ru": "Открыть в Google Play"
-                  },
-                  "type": "external",
-                  "svgIconKey": "ExternalLink"
-                }
-              ],
-              "svgIconKey": "DownloadIcon",
-              "description": {
-                "en": "Install Hiddify and allow VPN configuration on first launch.",
-                "ru": "Установите Hiddify и разрешите создание VPN-конфигурации при первом запуске."
-              },
-              "svgIconColor": "cyan"
-            },
-            {
-              "title": {
-                "en": "Add Subscription",
-                "ru": "Добавление подписки"
-              },
-              "buttons": [
-                {
-                  "link": "hiddify://import/{{SUBSCRIPTION_LINK}}",
-                  "text": {
-                    "en": "Add Subscription",
-                    "ru": "Добавить подписку"
-                  },
-                  "type": "subscriptionLink",
-                  "svgIconKey": "Plus"
-                }
-              ],
-              "svgIconKey": "CloudDownload",
-              "description": {
-                "en": "Tap the button below — Hiddify will open and offer to import the Funti VPN subscription.",
-                "ru": "Нажмите кнопку ниже — Hiddify откроется и предложит импортировать подписку Funti VPN."
-              },
-              "svgIconColor": "cyan"
-            },
-            {
-              "title": {
-                "en": "Connect",
-                "ru": "Подключение"
-              },
-              "buttons": [],
-              "svgIconKey": "Check",
-              "description": {
-                "en": "After import, select the Funti VPN profile and connect. Refresh the profile when needed to receive new servers.",
-                "ru": "После импорта выберите профиль Funti VPN и подключитесь. При необходимости обновите профиль, чтобы получить новые серверы."
-              },
-              "svgIconColor": "teal"
-            }
-          ],
-          "featured": true,
-          "svgIconKey": "Hiddify"
         }
       ],
       "svgIconKey": "Android",
