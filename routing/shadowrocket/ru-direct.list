@@ -1,5 +1,6 @@
 # Funti RU Direct rules
 # External RULE-SET format: rule type + match only.
+DOMAIN-SUFFIX,ru
 DOMAIN-SUFFIX,gosuslugi.ru
 DOMAIN-SUFFIX,nalog.gov.ru
 DOMAIN-SUFFIX,mos.ru
