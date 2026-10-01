@@ -1,9 +1,10 @@
 {
   "version": 1,
   "name": "Funti RU Direct",
-  "description": "Russian infrastructure and selected Russian services go DIRECT; everything else uses VPN.",
+  "description": "All .ru domains, Russian/private IP space, and selected Russian services go DIRECT; everything else uses VPN.",
   "direct": {
     "domain_suffix": [
+      "ru",
       "gosuslugi.ru",
       "nalog.gov.ru",
       "mos.ru",
